@@ -1,7 +1,6 @@
 import {
   View,
   Text,
-  StyleSheet,
   Pressable,
 } from "react-native";
 
@@ -34,6 +33,17 @@ export default function HomeScreen({ navigation }) {
       >
         <Text style={styles.buttonText}>
           Se mit CV
+        </Text>
+      </Pressable>
+
+      <Pressable
+        style={styles.secondaryButton}
+        onPress={() => navigation.navigate("Projects")}
+        accessibilityRole="button"
+        accessibilityLabel="Se mine projekter"
+      >
+        <Text style={styles.secondaryButtonText}>
+          Se mine projekter
         </Text>
       </Pressable>
 

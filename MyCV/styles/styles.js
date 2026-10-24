@@ -27,12 +27,6 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
 
-  bigTitle: {
-    fontSize: 38,
-    fontWeight: "bold",
-    marginBottom: 8,
-  },
-
   subtitle: {
     fontSize: 20,
     color: "#555",
@@ -106,6 +100,66 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 16,
     fontWeight: "600",
+  },
+
+  // Styles til den nye, interaktive projektportfolio.
+  projectsListContent: {
+    paddingBottom: 40,
+  },
+  sectionTitle: {
+    fontSize: 22,
+    fontWeight: "700",
+    marginTop: 20,
+    marginBottom: 10,
+  },
+  helperText: {
+    fontSize: 14,
+    color: "#666",
+    lineHeight: 20,
+    marginBottom: 12,
+  },
+  inputLabel: {
+    fontSize: 14,
+    fontWeight: "600",
+    marginBottom: 6,
+  },
+  input: {
+    backgroundColor: "#FFF",
+    borderWidth: 1,
+    borderColor: "#CCC",
+    borderRadius: 10,
+    paddingHorizontal: 14,
+    paddingVertical: 12,
+    fontSize: 16,
+    marginBottom: 14,
+  },
+  multilineInput: {
+    minHeight: 95,
+  },
+  projectTechnology: {
+    color: "#555",
+    fontSize: 14,
+    marginBottom: 8,
+  },
+  deleteButton: {
+    alignSelf: "flex-start",
+    marginTop: 6,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderWidth: 1,
+    borderColor: "#A33",
+    borderRadius: 8,
+  },
+  deleteButtonText: {
+    color: "#A33",
+    fontSize: 14,
+    fontWeight: "600",
+  },
+  emptyText: {
+    color: "#666",
+    fontSize: 15,
+    lineHeight: 22,
+    paddingVertical: 14,
   },
 });
 

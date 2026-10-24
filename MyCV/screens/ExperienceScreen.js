@@ -2,7 +2,6 @@ import {
   View,
   Text,
   FlatList,
-  StyleSheet,
   Pressable,
 } from "react-native";
 

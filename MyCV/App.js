@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeScreen from "./screens/HomeScreen";
 import ExperienceScreen from "./screens/ExperienceScreen";
 import ContactScreen from "./screens/ContactScreen";
+import ProjectsScreen from "./screens/ProjectsScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -16,13 +17,16 @@ export default function App() {
           component={HomeScreen}
           options={{ title: "Mit CV" }}
         />
-
         <Stack.Screen
           name="Experience"
           component={ExperienceScreen}
           options={{ title: "Erfaring" }}
         />
-
+        <Stack.Screen
+          name="Projects"
+          component={ProjectsScreen}
+          options={{ title: "Mine projekter" }}
+        />
         <Stack.Screen
           name="Contact"
           component={ContactScreen}
