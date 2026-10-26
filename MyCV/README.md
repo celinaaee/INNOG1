@@ -33,7 +33,7 @@ I godkendelsesopgave 2 er appen blevet udvidet med en projektside, søgefunktion
 Derudover er koden blevet ryddet op ved at fjerne ubrugte imports og styles på baggrund af feedback fra godkendelsesopgave 1.
 
 ## Demovideo
-[Indsæt link til demovideo]
+(https://youtu.be/GHOShMzOgNc?si=69jOwfigcTGH4siO)
 
 ## Udvikler
 
